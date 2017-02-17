@@ -1,6 +1,8 @@
 # Get Speed and Hours
 speed = float(input('Enter the speed in mph: '))
 time = float(input('How many hours traveled? '))
+
+#init distance variable
 distanceTraveled = float(0.0)
 
 print ('Hours \t Distance Traveled')
