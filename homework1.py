@@ -1,6 +1,5 @@
 # Get Speed and Hours
 speed = float(input('Enter the speed in mph: '))
-
 time = float(input('How many hours traveled? '))
 distanceTraveled = float(0.0)
 
