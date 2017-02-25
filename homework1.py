@@ -1,14 +1,9 @@
-# Get Speed and Hours
-speed = float(input('Enter the speed in mph: '))
-time = float(input('How many hours traveled? '))
+counter = int(1)
+max_value = 5
 
-#init distance variable
-distanceTraveled = float(0.0)
-
-print ('Hours \t Distance Traveled')
-print ('----------------------------')
-
-# Calculate Distance Traveled
-for time in range (1, 1 + int(time)):
-    distanceTraveled = speed * time
-    print (time, '\t', distanceTraveled, 'miles')
+for counter in range (max_value):
+    if counter < (max_value):
+        print ("hello world")
+    else:
+        counter = counter+1
+print (counter)
